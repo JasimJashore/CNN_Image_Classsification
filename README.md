@@ -184,18 +184,12 @@ Automation & Reproducibility
 
 The notebook is **fully automated** and follows assignment constraints:
 
-✔ Uses `git clone` to download custom images
-✔ Automatically loads standard dataset via `torchvision`
-✔ No manual file uploads required
-✔ Can be run using **“Run All”** without path issues
+ Uses `git clone` to download custom images
+ Automatically loads standard dataset via `torchvision`
+ No manual file uploads required
+ Can be run using **“Run All”** without path issues
 
-
-How to Run (Google Colab)
-
-1. Open the Colab link
-2. Click **Runtime → Run All**
-3. The notebook will:
-
+1.
    * Clone the GitHub repo
    * Load datasets
    * Train or load the model
@@ -218,5 +212,5 @@ Submission Links:
 
 ## 🏁 Conclusion
 
-This project demonstrates a **complete deep learning image classification workflow**, successfully transferring knowledge from a standard dataset to real-world images. The CNN achieves **near-perfect accuracy**, strong generalization, and meets **all assignment requirements**.
+This project demonstrates a complete deep learning image classification workflow, successfully transferring knowledge from a standard dataset to real-world images. The CNN achieves near-perfect accuracy, strong generalization, and meets all assignment requirements.
 
