@@ -203,8 +203,7 @@ How to Run (Google Colab)
    * Display all required visual outputs
 
 ## Results
-<img width="623" height="452" alt="Screenshot 2025-12-25 165337" src="https://github.com/user-attachments/assets/d39a9c57-5f51-4fa9-a311-273290e231a6" />
-<img width="622" height="478" alt="Screenshot 2025-12-25 165344" src="https://github.com/user-attachments/assets/f54e38dd-2813-4ee9-a6b1-77ed3d48f4ea" />
+<img width="1189" height="2390" alt="17_img" src="https://github.com/user-attachments/assets/f9200080-836d-411a-aa97-0d5566578872" />
 <img width="686" height="516" alt="Screenshot 2025-12-25 165238" src="https://github.com/user-attachments/assets/08f44042-94ed-482c-8595-d6deb70362dc" />
 <img width="712" height="548" alt="Screenshot 2025-12-25 165257" src="https://github.com/user-attachments/assets/bb95d139-1508-4b98-a639-5e9a5ae771d2" />
 <img width="660" height="544" alt="Screenshot 2025-12-25 165303" src="https://github.com/user-attachments/assets/cd2b0f22-68dd-4656-8d18-01aea4229788" />
