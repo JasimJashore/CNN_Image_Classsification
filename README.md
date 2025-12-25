@@ -20,7 +20,7 @@ Geometric Shapes
 
 * **Custom Dataset (Phone Task):**
 
-  * 10 images drawn by hand on paper
+  * 17 images drawn by hand on paper
   * Shapes photographed using a smartphone
   * Plain background to minimize noise
   * Images resized and processed to match training data format
