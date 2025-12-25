@@ -1,29 +1,21 @@
-
-
 # CNN Image Classification with PyTorch
 
-**Geometric Shapes Classification (Circle, Square, Triangle)**
+Geometric Shapes Classification (Circle, Square, Triangle)
 
-## 📌 Project Overview
+Project Overview
 
-This project implements a **complete Convolutional Neural Network (CNN) image classification pipeline using PyTorch**, trained on a **standard geometric shapes dataset** and tested on **real-world images captured using a smartphone**.
+This project implements a complete Convolutional Neural Network (CNN) image classification pipeline using PyTorch, trained on a standard geometric shapes dataset and tested on real-world images captured using a smartphone.
 
-The goal of this assignment is to bridge **standard dataset training** with **real-world inference**, while ensuring **full automation, reproducibility, and correct deep learning practices**.
+Dataset:
+Geometric Shapes
 
----
-
-## 📂 Dataset Selection
-
-**Chosen Dataset Option:**
-**Geometric Shapes**
-
-* **Training Classes:**
+* Training Classes:
 
   * Circle
   * Square
   * Triangle
 
-* **Standard Dataset:**
+* Standard Dataset:
   A geometric shapes dataset (drawn/digital shapes)
 
 * **Custom Dataset (Phone Task):**
@@ -33,11 +25,8 @@ The goal of this assignment is to bridge **standard dataset training** with **re
   * Plain background to minimize noise
   * Images resized and processed to match training data format
 
----
+Repository Structure
 
-## 📁 Repository Structure
-
-```
 ├── dataset/
 │   ├── custom_images/
 │   │   ├── img1.jpg
@@ -45,11 +34,11 @@ The goal of this assignment is to bridge **standard dataset training** with **re
 │   │   └── ...
 │
 ├── model/
-│   └── 190110.pth
+│   └── 210136.pth
 │
-├── 190110.ipynb
+├── 210136.ipynb
 ├── README.md
-```
+
 
 ### Folder Description
 
