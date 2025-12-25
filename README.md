@@ -249,19 +249,6 @@ The notebook is **fully automated** and follows assignment constraints:
 
 ---
 
-## ✅ Assignment Checklist
-
-✔ Standard dataset used
-✔ Custom phone images included
-✔ CNN built from scratch
-✔ Training + validation plots
-✔ Confusion matrix
-✔ Custom prediction gallery
-✔ Error analysis
-✔ Automated GitHub + Colab workflow
-
----
-
 ## 🏁 Conclusion
 
 This project demonstrates a **complete deep learning image classification workflow**, successfully transferring knowledge from a standard dataset to real-world images. The CNN achieves **near-perfect accuracy**, strong generalization, and meets **all assignment requirements**.
