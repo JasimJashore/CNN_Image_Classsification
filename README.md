@@ -34,21 +34,21 @@ Repository Structure
 │   │   └── ...
 │
 ├── model/
-│   └── 190110.pth
+│   └── 210136.pth
 │
-├── 190110.ipynb
+├── 210136.ipynb
 ├── README.md
 ```
 Folder Description
 
 * **dataset/** → Contains the 10 custom smartphone images
 * **model/** → Saved trained model state dictionary (`.pth`)
-* **190110.ipynb** → Google Colab notebook (fully automated)
+* **210136.ipynb** → Google Colab notebook (fully automated)
 * **README.md** → Project documentation and results
 
 ---
 
-## ⚙️ Data Preprocessing
+Data Preprocessing
 
 All images undergo the **same preprocessing pipeline** to ensure consistency between training and real-world testing.
 
@@ -68,18 +68,15 @@ transforms.Compose([
 
 ✔ Custom phone images are converted to the **same format, size, and normalization** as the training dataset.
 
----
-
-## 🧠 CNN Model Architecture
+CNN Model Architecture
 
 The CNN is implemented from scratch using PyTorch and inherits from `nn.Module`.
 
-### Architecture Summary
+Architecture Summary
 
-* **Convolutional Layers:**
-
-  * Feature extraction using `nn.Conv2d`
-* **Activation:**
+Convolutional Layers:
+Feature extraction using `nn.Conv2d`
+Activation:*
 
   * `ReLU`
 * **Pooling:**
@@ -108,9 +105,7 @@ class CNN(nn.Module):
         return x
 ```
 
----
-
-## 🏋️ Training Details
+Training Details
 
 * **Loss Function:** `CrossEntropyLoss`
 * **Optimizer:** `Adam`
@@ -130,26 +125,21 @@ The trained model is saved using:
 ```python
 torch.save(model.state_dict(), "190110.pth")
 ```
+Training Results
 
----
-
-## 📈 Training Results
-
-### Loss vs Epochs
+Loss vs Epochs
 
 * Rapid decrease in training loss
 * Loss converges close to **0.0**, indicating strong learning
 
-### Accuracy vs Epochs
+Accuracy vs Epochs
 
 * Training accuracy increases from ~75% to **~100%**
 * Stable convergence after a few epochs
 
-✔ No signs of instability during training
+No signs of instability during training
 
----
-
-## 🔍 Confusion Matrix (Standard Test Set)
+Confusion Matrix (Standard Test Set)
 
 A confusion matrix was generated on the **standard test dataset**.
 
@@ -159,9 +149,7 @@ A confusion matrix was generated on the **standard test dataset**.
 * Only **2 misclassifications** observed
 * Strong generalization across shapes
 
----
-
-## 📷 Real-World Testing (Custom Images)
+Real-World Testing (Custom Images)
 
 The trained model was tested on **10 custom smartphone images**.
 
@@ -179,11 +167,10 @@ Predicted Class (Confidence %)
 * Circle (99.9%)
 * Square (97.9%)
 
-✔ Model successfully classifies real-world images with **very high confidence**
+Model successfully classifies real-world images with **very high confidence**
 
----
 
-## ❌ Visual Error Analysis
+Visual Error Analysis
 
 * 3 incorrectly classified samples from the test set are displayed
 * Each shows:
@@ -193,9 +180,7 @@ Predicted Class (Confidence %)
 
 This analysis helps understand edge cases and confirms overall robustness.
 
----
-
-## 🚀 Automation & Reproducibility
+Automation & Reproducibility
 
 The notebook is **fully automated** and follows assignment constraints:
 
@@ -204,9 +189,8 @@ The notebook is **fully automated** and follows assignment constraints:
 ✔ No manual file uploads required
 ✔ Can be run using **“Run All”** without path issues
 
----
 
-## ▶️ How to Run (Google Colab)
+How to Run (Google Colab)
 
 1. Open the Colab link
 2. Click **Runtime → Run All**
@@ -218,7 +202,6 @@ The notebook is **fully automated** and follows assignment constraints:
    * Run predictions on custom images
    * Display all required visual outputs
 
----
 ## Results
 <img width="623" height="452" alt="Screenshot 2025-12-25 165337" src="https://github.com/user-attachments/assets/d39a9c57-5f51-4fa9-a311-273290e231a6" />
 <img width="622" height="478" alt="Screenshot 2025-12-25 165344" src="https://github.com/user-attachments/assets/f54e38dd-2813-4ee9-a6b1-77ed3d48f4ea" />
@@ -226,20 +209,15 @@ The notebook is **fully automated** and follows assignment constraints:
 <img width="712" height="548" alt="Screenshot 2025-12-25 165257" src="https://github.com/user-attachments/assets/bb95d139-1508-4b98-a639-5e9a5ae771d2" />
 <img width="660" height="544" alt="Screenshot 2025-12-25 165303" src="https://github.com/user-attachments/assets/cd2b0f22-68dd-4656-8d18-01aea4229788" />
 
-
-## 📎 Submission Links
+Submission Links:
 
 * **GitHub Repository:**
-  👉[https://github.com/JasimJashore/CNN_Image_Classsification]
+  [https://github.com/JasimJashore/CNN_Image_Classsification]
 
 * **Google Colab Notebook:**
-  👉 [https://colab.research.google.com/drive/1dS_N-xPHsA_Vuq2yVYRxsZO1A0fNJz3U#scrollTo=ByTykUNPK5Kz]
-
----
+  [https://colab.research.google.com/drive/1dS_N-xPHsA_Vuq2yVYRxsZO1A0fNJz3U#scrollTo=ByTykUNPK5Kz]
 
 ## 🏁 Conclusion
 
 This project demonstrates a **complete deep learning image classification workflow**, successfully transferring knowledge from a standard dataset to real-world images. The CNN achieves **near-perfect accuracy**, strong generalization, and meets **all assignment requirements**.
-
----
 
