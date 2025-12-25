@@ -28,7 +28,7 @@ Geometric Shapes
 Repository Structure
 ```
 ├── dataset/
-│   ├── custom_images/
+│   ├── Phone/
 │   │   ├── img1.jpg
 │   │   ├── img2.jpg
 │   │   └── ...
@@ -151,7 +151,7 @@ A confusion matrix was generated on the **standard test dataset**.
 
 Real-World Testing (Custom Images)
 
-The trained model was tested on **10 custom smartphone images**.
+The trained model was tested on **17** custom smartphone images.
 
 ### Prediction Gallery Output
 
