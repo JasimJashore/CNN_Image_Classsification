@@ -26,6 +26,7 @@ Geometric Shapes
   * Images resized and processed to match training data format
 
 Repository Structure
+```
 ├── dataset/
 │   ├── custom_images/
 │   │   ├── img1.jpg
@@ -37,7 +38,7 @@ Repository Structure
 │
 ├── 190110.ipynb
 ├── README.md
-
+```
 Folder Description
 
 * **dataset/** → Contains the 10 custom smartphone images
