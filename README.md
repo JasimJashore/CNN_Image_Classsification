@@ -26,7 +26,6 @@ Geometric Shapes
   * Images resized and processed to match training data format
 
 Repository Structure
----
 ├── dataset/
 │   ├── custom_images/
 │   │   ├── img1.jpg
@@ -34,14 +33,12 @@ Repository Structure
 │   │   └── ...
 │
 ├── model/
-│   └── 210136.pth
+│   └── 190110.pth
 │
-├── 210136.ipynb
+├── 190110.ipynb
 ├── README.md
----
 
-
-### Folder Description
+Folder Description
 
 * **dataset/** → Contains the 10 custom smartphone images
 * **model/** → Saved trained model state dictionary (`.pth`)
